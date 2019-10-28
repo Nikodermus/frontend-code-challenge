@@ -1,6 +1,6 @@
 # React Code Challenge
 
-This is a boilerpalte for a code-challenge meant for Front-end engineers using React as library tool for development. It includes all necessary HTML and CSS, so your work is to focus on the development of the app.
+This is a boilerplate for a code-challenge meant for Front-end engineers using React as library tool for development. It includes all necessary HTML and CSS, so your work is to focus on the development of the app.
 
 ## How to use
 
