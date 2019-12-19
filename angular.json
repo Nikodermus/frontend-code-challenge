@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "react-code-challenge": {
+    "frontend-code-challenge": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/react-code-challenge",
+            "outputPath": "dist/frontend-code-challenge",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "react-code-challenge:build"
+            "browserTarget": "frontend-code-challenge:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "react-code-challenge:build:production"
+              "browserTarget": "frontend-code-challenge:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "react-code-challenge:build"
+            "browserTarget": "frontend-code-challenge:build"
           }
         },
         "test": {
@@ -111,15 +111,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "react-code-challenge:serve"
+            "devServerTarget": "frontend-code-challenge:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "react-code-challenge:serve:production"
+              "devServerTarget": "frontend-code-challenge:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "react-code-challenge"
+  "defaultProject": "frontend-code-challenge"
 }

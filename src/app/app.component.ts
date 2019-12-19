@@ -9,5 +9,5 @@ const URL_PATH =
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  title = "react-code-challenge";
+  title = "frontend-code-challenge";
 }

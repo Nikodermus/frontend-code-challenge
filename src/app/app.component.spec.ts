@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'react-code-challenge'`, () => {
+  it(`should have as title 'frontend-code-challenge'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('react-code-challenge');
+    expect(app.title).toEqual('frontend-code-challenge');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('react-code-challenge app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('frontend-code-challenge app is running!');
   });
 });
