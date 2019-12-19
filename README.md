@@ -2,7 +2,7 @@
 
 This is a boilerplate for a code-challenge meant for Front-end engineers using Angular as library tool for development. It includes all necessary HTML and CSS, so your work is to focus on the development of the app.
 
-# React
+### React
 
 Switch to the React branch and follow the README:
 
