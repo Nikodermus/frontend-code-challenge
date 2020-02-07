@@ -10,6 +10,10 @@ import {
 
 import {globalStyles, typesStyles} from './Styles';
 
+// eslint-disable-next-line no-unused-vars
+const URL_PATH =
+  'https://gist.githubusercontent.com/bar0191/fae6084225b608f25e98b733864a102b/raw/dea83ea9cf4a8a6022bfc89a8ae8df5ab05b6dcc/pokemon.json';
+
 const App = () => (
   <ImageBackground
     source={require('../assets/bg.png')}
@@ -26,8 +30,8 @@ const App = () => (
       <TextInput placeholder="Pokemon or type" style={globalStyles.input} />
     </View>
 
-    {/* Pokemon result */}
     <View style={globalStyles.results}>
+      {/* Pokemon result */}
       <View style={globalStyles.pokemon}>
         <Image
           style={globalStyles.pokemonImg}
