@@ -1,13 +1,13 @@
-# Front-end Code Challenge
+# Front-end Code Challenge - React
 
-This is a boilerplate for a code-challenge meant for Front-end engineers using React as library tool for development. It includes all necessary HTML and CSS, so your work is to focus on the development of the app.
+This is a boilerplate for a code-challenge meant for Front-end engineers using React as library tool for development. It includes all necessary HTML and CSS, so your work is to focus on the development of the app. Please fork this repository in your own account.
 
-### Angular
+### For other technologies
 
-Switch to the angular branch and follow the README:
+Switch to the branch of the technology of your expertise and follow the README:
 
 ```bash
-git checkout angular
+git checkout [react-native|angular]
 ```
 
 ## How to use
