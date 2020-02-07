@@ -1,6 +1,6 @@
 # Front-end Code Challenge - React Native
 
-This is a boilerplate for a code-challenge meant for Front-end engineers using React as library tool for development. It includes all necessary layouts and styles, so your work is to focus on the development of the app.
+This is a boilerplate for a code-challenge meant for Front-end engineers using React as library tool for development. It includes all necessary layouts and styles, so your work is to focus on the development of the app. Please fork this repository to your own account.
 
 ### For other technologies
 
