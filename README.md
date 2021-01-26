@@ -7,7 +7,7 @@ This is a boilerplate for a code-challenge meant for Front-end engineers using R
 Switch to the branch of the technology of your expertise and follow the README:
 
 ```bash
-git checkout [react-native|angular]
+git checkout [vue|react-native|angular]
 ```
 
 ## How to use
@@ -36,10 +36,10 @@ These are a series of features the app should do, here they are sorted in the pr
 
 ## Development
 
-- You can use internet, other projects, textbooks and whatever you think you need to complete the task, work as you usually would.
-- Please speak as you develop, this in order to understand better what you are trying to do.
-- You can ask questions if you need to, but try to refer to this document in first place, should have all what you need.
-- You can create as many components in the fasion you want (classes, stateless functional components, react hooks).
-- This setup uses EcmaScript Stage 4, you can use destructure, rest syntax, etc... This project is meant to be written with ES6+ standard.
-- Do not add dependencies.
-- Do not spend time in configuration, babel, webpack. This project has enough for its purpose and time is short.
+-   You can use internet, other projects, textbooks and whatever you think you need to complete the task, work as you usually would.
+-   Please speak as you develop, this in order to understand better what you are trying to do.
+-   You can ask questions if you need to, but try to refer to this document in first place, should have all what you need.
+-   You can create as many components in the fasion you want (classes, stateless functional components, react hooks).
+-   This setup uses EcmaScript Stage 4, you can use destructure, rest syntax, etc... This project is meant to be written with ES6+ standard.
+-   Do not add dependencies.
+-   Do not spend time in configuration, babel, webpack. This project has enough for its purpose and time is short.
