@@ -1,6 +1,5 @@
 /*
 	Nicolas M. Pardo
-	30 Days of Javascript
 */
 html,
 body,
@@ -224,10 +223,10 @@ body {
     overflow: hidden;
 }
 html {
-    background: url('./bg.png');
+    background: url('/bg.png');
     background-size: cover;
     background-attachment: fixed;
-    background-position: 60% center;
+    background-position: right center;
 }
 input {
     padding: 0.6rem 2rem 1.4rem 2rem;
